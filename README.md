@@ -34,20 +34,24 @@ Ordenar: python app.py SORT <campo>
 Exemplo: python app.py SORT idade
 ```
 
+
+
+
+
 ##Requisitos: Python 3.7+
 
 ##Limitações:
 
-A Árvore B está presente, mas sem a lógica de inserção e remoção implementada.
+- A Árvore B está presente, mas sem a lógica de inserção e remoção implementada.
 
-Os dados são armazenados apenas em memória e exportados para um arquivo JSON.
+- Os dados são armazenados apenas em memória e exportados para um arquivo JSON.
 
-Sem suporte a transações ou múltiplos usuários.
+- Sem suporte a transações ou múltiplos usuários.
 
 ##Observações
-O arquivo data/db_file.json é criado automaticamente quando o primeiro dado é inserido.
+- O arquivo data/db_file.json é criado automaticamente quando o primeiro dado é inserido.
 
-O programa deve ser executado a partir da raiz do projeto para funcionar corretamente.
+- O programa deve ser executado a partir da raiz do projeto para funcionar corretamente.
 
 
 
