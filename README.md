@@ -17,7 +17,7 @@ Este projeto implementa uma base de dados simples utilizando estruturas de dados
 ├── app.py                 # Código principal (interface + lógica)
 ├── README.md
 └── .gitignore
-
+```
 
 ## ▶️ Como Usar
 ### 1. Executar o programa
@@ -32,11 +32,11 @@ Exemplo: python app.py UPDATE 1 idade 35
 Deletar: python app.py DELETE <id>
 Ordenar: python app.py SORT <campo>
 Exemplo: python app.py SORT idade
+```
 
+##Requisitos: Python 3.7+
 
-###Requisitos: Python 3.7+
-
-###Limitações:
+##Limitações:
 
 A Árvore B está presente, mas sem a lógica de inserção e remoção implementada.
 
@@ -44,7 +44,7 @@ Os dados são armazenados apenas em memória e exportados para um arquivo JSON.
 
 Sem suporte a transações ou múltiplos usuários.
 
-###Observações
+##Observações
 O arquivo data/db_file.json é criado automaticamente quando o primeiro dado é inserido.
 
 O programa deve ser executado a partir da raiz do projeto para funcionar corretamente.
