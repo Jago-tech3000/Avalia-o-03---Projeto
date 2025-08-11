@@ -38,9 +38,9 @@ Exemplo: python app.py SORT idade
 
 
 
-###Requisitos: Python 3.7+
+### Requisitos: Python 3.7+
 
-###Limitações:
+### Limitações:
 
 - A Árvore B está presente, mas sem a lógica de inserção e remoção implementada.
 
@@ -48,7 +48,7 @@ Exemplo: python app.py SORT idade
 
 - Sem suporte a transações ou múltiplos usuários.
 
-###Observações
+### Observações
 - O arquivo data/db_file.json é criado automaticamente quando o primeiro dado é inserido.
 
 - O programa deve ser executado a partir da raiz do projeto para funcionar corretamente.
