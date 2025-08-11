@@ -36,10 +36,6 @@ Exemplo: python app.py SORT idade
 
 
 
-
-
-### Requisitos: Python 3.7+
-
 ### Limitações:
 
 - A Árvore B está presente, mas sem a lógica de inserção e remoção implementada.
